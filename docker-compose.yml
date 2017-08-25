@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  python:
+    image: bennyhat/python-osx:3.6.2
+    build:
+      context: .
+      dockerfile: Dockerfile
